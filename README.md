@@ -1,5 +1,7 @@
 # ESPHome BTHome Component
 
+> **Personal fork.** This is a personal fork of [dz0ny/esphome-bthome](https://github.com/dz0ny/esphome-bthome), trimmed to just the BTHome receiver + transmitter components for my own use. All credit for the original work goes to [dz0ny](https://github.com/dz0ny). **For updates, the full project, and documentation, please see [dz0ny's repository](https://github.com/dz0ny/esphome-bthome).**
+
 A custom ESPHome component that broadcasts sensor data using the [BTHome v2](https://bthome.io/) BLE protocol for seamless Home Assistant integration.
 
 ## Features
