@@ -15,10 +15,8 @@ A custom ESPHome component that broadcasts sensor data using the [BTHome v2](htt
 
 ```yaml
 external_components:
-  - source:
-      type: git
-      url: https://github.com/dz0ny/esphome-bthome
-      ref: main
+  - source: github://srnoth/esphome-bthome@main
+    refresh: 1s
     components: [bthome]
 
 sensor:
@@ -35,15 +33,6 @@ bthome:
     - type: humidity
       id: humidity
 ```
-
-## Documentation
-
-Full documentation is available at **[dz0ny.github.io/esphome-bthome](https://dz0ny.github.io/esphome-bthome/)**
-
-- [Getting Started](https://dz0ny.github.io/esphome-bthome/getting-started/introduction/)
-- [Configuration](https://dz0ny.github.io/esphome-bthome/configuration/basic-setup/)
-- [Device Examples](https://dz0ny.github.io/esphome-bthome/devices/1-gang-pushbutton/)
-- [Sensor Reference](https://dz0ny.github.io/esphome-bthome/reference/sensor-types/)
 
 ## Supported Platforms
 

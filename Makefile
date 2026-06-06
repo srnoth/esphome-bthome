@@ -12,8 +12,7 @@ EXAMPLES := \
 	two_gang_switch_esp32.yaml \
 	two_gang_switch_nrf52.yaml \
 	bthome_receiver_bluedroid.yaml \
-	bthome_receiver_nimble.yaml \
-	weather_display_t5_47.yaml
+	bthome_receiver_nimble.yaml
 
 # ESP32 examples only (for faster CI)
 ESP32_EXAMPLES := \
@@ -23,8 +22,7 @@ ESP32_EXAMPLES := \
 	esp32_devkit_basic.yaml \
 	two_gang_switch_esp32.yaml \
 	bthome_receiver_bluedroid.yaml \
-	bthome_receiver_nimble.yaml \
-	weather_display_t5_47.yaml
+	bthome_receiver_nimble.yaml
 
 # nRF52 examples
 NRF52_EXAMPLES := \
@@ -47,7 +45,7 @@ help:
 	@echo ""
 	@echo "Examples:"
 	@echo "  make compile FILE=cpu_temp_esp32.yaml"
-	@echo "  make flash FILE=weather_display_t5_47.yaml"
+	@echo "  make flash FILE=bthome_receiver_bluedroid.yaml"
 	@echo "  make run FILE=esp32_devkit_basic.yaml"
 
 # List all examples
